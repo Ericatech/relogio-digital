@@ -1,0 +1,48 @@
+:root {
+  --bg-color: #f0f0f0;
+  --text-color: #333;
+  --button-bg: #333;
+  --button-text: #fff;
+}
+
+body.dark {
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+  --button-bg: #f0f0f0;
+  --button-text: #121212;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+#clock {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+#toggleTheme {
+  padding: 10px 20px;
+  border: none;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+#toggleTheme:hover {
+  opacity: 0.8;
+}
