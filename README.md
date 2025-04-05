@@ -20,19 +20,6 @@ Este projeto é um **relógio digital simples e elegante**, desenvolvido com **H
 Esse projeto foi criado para praticar e demonstrar:
 - Manipulação do DOM com JavaScript
 - Aplicação de temas com CSS
-- Atualização em tempo real
-- Estruturação de um mini-projeto completo
-
-## 📸 Preview
-
-> ⚠️ Adicione aqui um print do projeto funcionando ou um link do GitHub Pages (caso publique).
-
-## 🚀 Como Executar
-
-1. Clone ou baixe este repositório:
-```bash
-git clone https://github.com/seu-usuario/relogio-digital.git
-
 
 
 
